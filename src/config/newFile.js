@@ -1,22 +1,18 @@
 export default {
   global: {
-    componenteFormativo: 'Pensamiento estratégico y creación de empresa.',
+    componenteFormativo: 'Pensamiento estratégico y creación de empresa',
     descripcionCurso:
       'Las empresas tienen una característica fundamental, son creadas por emprendedores exitosos, quienes buscan satisfacer ciertas necesidades, contribuyendo al desarrollo económico del país. Por ello, al momento de crear empresa, se deben modificar las actitudes y aptitudes que permitan ir adquiriendo una independencia en ese aprender e interactuar en equipo, para hacer un desarrollo sostenible del proyecto de vida.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1'],
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -163,6 +159,12 @@ export default {
     ],
   },
   complementario: [
+    /*{
+      tema: '1. Ser emprendedor',
+      referencia: 'Cámara de Comercio de Bogotá. (2023). Prepárate para crear tu empresa.',
+      tipo: 'Página web',
+      link: 'https://www.ccb.org.co/empresarial/crear-empresa/preparese-para-crear-empresa',
+    },*/
     {
       tema: 'Ser emprendedor',
       referencia: 'Revista Emprendedores. (2024).',
